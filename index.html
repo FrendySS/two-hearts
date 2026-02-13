@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  />
+  <title>Валентинка для 🌻</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg">
+    <!-- ВИДЕО ФОН (опционально). Если файла нет — просто будет градиент. -->
+    <video class="bgvid" autoplay muted loop playsinline>
+      <source src="assets/Love_me.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay"></div>
+  </div>
+
+  <main class="wrap" id="screen1" aria-live="polite">
+    <div class="sticker-row">
+      <img class="sticker" src="assets/file_158779816.png" alt="sticker" />
+      <img class="sticker" src="assets/file_158779834.png" alt="sticker" />
+      <img class="sticker" src="assets/file_158779868.png" alt="sticker" />
+    </div>
+
+    <h1>🌹 С 14 февраля, Солнышко 🌹</h1>
+    <p class="subtitle">У меня к тебе один очень важный вопрос…</p>
+
+    <div class="card">
+      <div class="question">Будешь моей валентинкой? 💌</div>
+
+      <div class="btns">
+        <button class="btn yes" id="yesBtn">Да ❤️</button>
+        <button class="btn no" id="noBtn">Нет 🙈</button>
+      </div>
+
+      <p class="hint">* «Нет» — просто для красоты 😄</p>
+    </div>
+  </main>
+
+  <section class="wrap hidden" id="screen2">
+    <div class="topline">
+      <img class="sticker big" src="assets/file_158779841.png" alt="sticker" />
+      <div>
+        <h2>Официально: ты моя валентинка 💘</h2>
+        <p class="subtitle">Наши моменты — с датой и временем.</p>
+      </div>
+    </div>
+
+    <div class="slider">
+      <button class="nav" id="prev" aria-label="Назад">‹</button>
+
+      <div class="bubble" id="bubble">
+        <div class="whoRow">
+          <div class="who" id="who"></div>
+          <div class="meta" id="meta"></div>
+        </div>
+        <div class="text" id="text"></div>
+      </div>
+
+      <button class="nav" id="next" aria-label="Вперёд">›</button>
+    </div>
+
+    <div class="dots" id="dots"></div>
+
+    <div class="final">
+      <div class="finalText">
+        <p>Спасибо, что ты есть. Я рядом — сегодня и всегда.</p>
+        <p class="sign">Твой Тоха ❤️</p>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="btn small" id="restart">Ещё раз 🥰</button>
+    </div>
+  </section>
+
+<script>
+  window.__QUOTES__ = [
+    {"who":"🌻","dt":"04.01.2026 15:01","text":"жанымка такой"},
+    {"who":"🌻","dt":"05.01.2026 01:14","text":"миленький такой утютю"},
+    {"who":"тоха картоха","dt":"09.01.2026 10:59","text":"спасибо, солнышко😘❤️"},
+    {"who":"тоха картоха","dt":"12.01.2026 01:25","text":"соооолнышко мое😘😘😘❤️❤️❤️❤️"},
+    {"who":"🌻","dt":"18.01.2026 01:38","text":"няша милаша"},
+    {"who":"тоха картоха","dt":"18.01.2026 11:29","text":"доооброе утро, солнце😘❤️"},
+    {"who":"тоха картоха","dt":"22.01.2026 00:08","text":"ты милашка😘😘😘❤️❤️❤️❤️"},
+    {"who":"🌻","dt":"23.01.2026 20:52","text":"кто это такая няша милаша"},
+    {"who":"тоха картоха","dt":"26.01.2026 05:00","text":"и тебе спасибо, солнышко😘😘😘"},
+    {"who":"🌻","dt":"28.01.2026 23:53","text":"соскучилась"},
+    {"who":"тоха картоха","dt":"30.01.2026 06:14","text":"люблю тебя😘😘❤️❤️❤️❤️"},
+    {"who":"тоха картоха","dt":"31.01.2026 02:28","text":"и тебе сладких снов, солнышко😘❤️"},
+    {"who":"тоха картоха","dt":"01.02.2026 03:53","text":"доброй ночи, золотце моё😘😘😘❤️❤️❤️"},
+    {"who":"тоха картоха","dt":"08.02.2026 10:46","text":"люблю тебя, солнце мое❤️❤️❤️❤️"},
+    {"who":"🌻","dt":"08.02.2026 10:47","text":"жанымау"},
+    {"who":"🌻","dt":"08.02.2026 15:07","text":"милашкааааааа 😻😻😻"},
+    {"who":"тоха картоха","dt":"09.02.2026 22:08","text":"я соскучился"},
+    {"who":"🌻","dt":"11.02.2026 23:32","text":"милашка 😘😘"},
+    {"who":"🌻","dt":"12.02.2026 18:21","text":"скучаю просто"},
+    {"who":"тоха картоха","dt":"13.02.2026 01:17","text":"я тааак тебя люблю🥹❤️"},
+    {"who":"🌻","dt":"13.02.2026 01:19","text":"и я тебя (люблю)"}
+  ];
+</script>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
